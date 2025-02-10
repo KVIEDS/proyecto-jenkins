@@ -4,11 +4,7 @@ pipeline {
     stages {
         stage('Checkout') { 
             steps {
-
                 git url: 'https://github.com/KVIEDS/proyecto-jenkins.git', branch: 'main'
-
-                git url: 'file:///C:/Windows/System32/proyecto-jenkins', branch: 'main'
- f3230f0 (Agregado Jenkinsfile para pipeline)
             }
         }
         
